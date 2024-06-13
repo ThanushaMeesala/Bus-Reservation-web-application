@@ -1,0 +1,5 @@
+package org.jsp.Reservationapp.Repository;
+
+public interface TickectRespository {
+
+}

@@ -1,0 +1,5 @@
+package org.jsp.Reservationapp.Service;
+
+public class TicketService {
+
+}

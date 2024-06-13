@@ -1,0 +1,96 @@
+.admindashpage{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://media.licdn.com/dms/image/D5612AQHHTTICSfxTgg/article-cover_image-shrink_720_1280/0/1693153639814?e=2147483647&v=beta&t=7i57JjfMjD4uvyQuY4L9pIC3DxNpcZBHVOnFPbFnILE");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.admindashpage h1,form{
+font-family: sans-serif;
+position: relative;
+/* top:%; */
+}
+.admindashpage h1{
+    margin-left:35%;
+    margin-bottom: 1%;
+    font-weight: bolder;
+}
+.admindashpage form{
+    height: 15%;
+    width: 85%;
+    border: 1px solid none;
+    margin-left:6%;
+    display: flex;
+    flex-direction: row;
+    background:linear-gradient(transparent,whitesmoke 50%);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    margin-bottom: 20px;
+}
+.admindashpage form .box{
+    margin: 20px 0px 0px 15px;
+    height:50%;
+    width: 25%;
+    border: 1px solid none;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px gray;
+    background-color: transparent;
+}
+.admindashpage form .box input{
+    height: 90%;
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+    background-color: transparent;
+}
+.admindashpage form .box input:focus{
+    outline: none;
+}
+.admindashpage form button{
+    height: 50%;
+    width: 12%;
+    background-color: #DC635B;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px red;
+    font-size: 18px;
+    margin: 20px 0px 0px 25px;
+}
+.admindashpage form button a{
+    text-decoration: none;
+    color: wheat;
+}
+
+.admindashpage .bus_list{
+    height: 15%;
+    width:99.8%;
+    background: linear-gradient(transparent,whitesmoke);
+    border: none;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 10%; */
+    padding: 2%;
+
+}
+.admindashpage .bus_list h4{
+    font-weight: bolder;
+    font-size: 30px;
+    text-shadow: 0px 0px 4px gray;
+}
+.admindashpage .bus_list p{
+    font-size: 17px;
+    text-align: center;
+    text-shadow: 0px 0px 4px gray;
+}
+.admindashpage .bus_list button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(115, 161, 247);
+    box-shadow: 0px 0px 5px blue;
+    border: none;
+}

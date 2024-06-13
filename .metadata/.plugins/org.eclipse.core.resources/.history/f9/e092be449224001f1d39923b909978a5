@@ -1,0 +1,16 @@
+package org.jsp.Reservationapp.Controller;
+@RestController
+@CrossOrigin
+@RequestMapping("/api/tickets")
+
+public class TicketController {
+	@Autowired
+	private TicketService ticketService;
+
+	@PostMapping("/{busId}/{userId}/{numberOfSeats}")
+	public TicketResponse bookTicket(@PathVariable int busId, @PathVariable int userId,
+			@PathVariable int numberOfSeats) {
+		return ticketService.bookTicket(userId, busId, numberOfSeats);
+	}
+
+}

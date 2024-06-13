@@ -1,0 +1,59 @@
+.adminpage {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://images5.alphacoders.com/301/thumb-1920-301407.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.adminpage form{
+    /* margin: 5px 0px 0px 35%; */
+    padding: 20px;
+    height: 55%;
+    width: 26%;
+    /* background-color: aqua; */
+    position: relative;
+    top:27%;
+    left: 35%;
+    box-shadow: 0px 0px 8px ghostwhite;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+.adminpage input{
+    height:30%;
+    width: 90%;
+    margin:10px 0px 20px 20px ;
+    background-color:transparent ;
+    border: none;
+    border-bottom: 1px solid burlywood;
+    box-shadow: 0px 0px 15px gray;
+    color: wheat;
+}
+.adminpage input::placeholder{
+    /* font-size: 20px; */
+    color:rgb(99, 99, 99);
+}
+.adminpage button{
+    width: 50%;
+    margin: 10px 0px 0px 75px;
+    background-color: ghostwhite;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.adminpage button:hover{
+    background-color:cornflowerblue;
+    transform: scale(1.1);
+}
+.adminpage input:focus{
+    outline: 0.2px solid burlywood;
+}
+.adminpage form .side{
+    padding: 20px 0px 0px 30px;
+}
+.adminpage form p{
+    font-size: 18px;
+    padding: 2px 0px 0px 35px;
+}

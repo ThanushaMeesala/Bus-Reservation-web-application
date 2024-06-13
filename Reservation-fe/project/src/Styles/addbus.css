@@ -1,0 +1,45 @@
+.addbus{
+    position: relative;
+    left: 35%;
+    height: 85%;
+    width: 30%;
+    background-color:rgb(157, 165, 46);
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.addbus form{
+    height: 80%;
+    width: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+}
+.addbus label{
+    padding: 5px 0px 0px 10px;
+    font-weight: bolder;
+}
+.addbus input{
+    height: 30px;
+    width: 80%;
+    margin: 2px 0px 0px 70px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color:whitesmoke;
+    font-size: 20px
+}
+.addbus input::placeholder{
+    color: rgba(229, 247, 189, 0.801);
+}
+.addbus input:focus{
+    outline: none;
+}
+.addbus button{
+    height: 40px;
+    width: 100px;
+    background-color: cadetblue;
+    margin: 30px 30px 30px 40%;
+    border-radius: 25px;
+}

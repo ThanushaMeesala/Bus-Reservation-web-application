@@ -1,0 +1,58 @@
+.adminsignup{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20201010/pngtree-thumb-up-sign-with-neon-effect-lights-like-in-silhouette-ok-image_407900.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: ghostwhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+.adminsignup form{
+    height: 90%;
+    width: 30%;
+    background:linear-gradient(transparent,rgb(0, 0, 0)100%,black 100%);
+    /* border:1px solid wheat; */
+    box-shadow: 0px 0px 20px gray;
+    padding: 20px 20px;
+    display: grid;
+    grid-template-columns: 125px 300px;
+    border-radius: 25px;
+    
+}
+.adminsignup input{
+    height: 50%;
+    width: 80%;
+    /* margin: 10px 40px; */
+    background-color: transparent;
+    border: none;
+    /* border-radius: 25px; */
+    text-align:left;
+    padding-left: 15px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 0px 10px white;
+    color: bisque;
+}
+.adminsignup input::placeholder{
+    color: rgba(8, 240, 209, 0.267);
+}
+.adminsignup label{
+    font-weight: bolder;
+    color: rgb(161, 135, 99);
+}
+.adminsignup button{
+    height: 50%;
+    width: 200px;
+    margin:0px 80% ;
+    border-radius: 25px;
+    background-color: darkgrey;
+}
+.adminsignup button:hover{
+    background-color: cornflowerblue;
+}
+.adminsignup input:focus{
+    color:ghostwhite;
+}

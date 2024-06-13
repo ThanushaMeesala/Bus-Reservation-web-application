@@ -1,0 +1,19 @@
+.adminnavbar{
+    height: 80px ;
+    width: 100%;
+    background-color: rgb(238, 238, 63);
+    display: flex;
+    align-items: center;
+}
+.adminnavbar button{
+    height: 35px;
+    width: 120px;
+    margin-left: 1000px;
+    border-radius: 10px;
+    background-color:rgb(56, 177, 1);
+    /* color: white; */
+}
+.adminnavbar button a{
+   text-decoration: none;
+   color: wheat; 
+}

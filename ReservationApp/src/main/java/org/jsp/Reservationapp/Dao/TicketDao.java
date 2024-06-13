@@ -1,0 +1,16 @@
+package org.jsp.Reservationapp.Dao;
+
+import org.jsp.Reservationapp.Model.Ticket;
+import org.jsp.Reservationapp.Repository.TicketRespository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class TicketDao {
+	@Autowired
+	private TicketRespository ticketRepository;
+
+	public Ticket saveTicket(Ticket ticket) {
+		return ticketRepository.save(ticket);
+	}
+}
